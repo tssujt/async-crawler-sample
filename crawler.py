@@ -2,7 +2,6 @@ import asyncio
 import logging
 
 import aiohttp
-import async_timeout
 import uvloop
 from pyquery import PyQuery as pq
 
@@ -88,3 +87,6 @@ class ReadfreeCrawler:
 if __name__ == '__main__':
     crawler = ReadfreeCrawler(loop=loop)
     crawler.run()
+    crawler.close()
+
+    loop.close()
