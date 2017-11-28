@@ -20,7 +20,7 @@ ROOT_URL = 'http://readfree.me?page=1'
 
 HEADERS = {
     'Cookie': 'csrftoken=16tJeMh8yI5AZcLr7LnJcpq7S1UPwaUmSzjiBCqm68epqcApkRbUqRKyqC3p26cn; '
-              'sessionid=htt1dqolvkuz6fi464xwayogqsocygxa',
+              'sessionid=htt1dqolvkuz6fi464xwayogqsocygxa',  # Use your own cookie instead~
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 '
                   'Firefox/57.0',
     'Host': 'readfree.me',
