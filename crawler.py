@@ -45,7 +45,6 @@ class ReadfreeCrawler:
         self.logger.debug('Start extracting URL: {}'.format(url))
         async with self.session.get(url) as resp:
             content = await resp.text()
-        await asyncio.sleep(4)
         self.logger.debug('Finish extracting URL: {}'.format(url))
 
         urls = []
